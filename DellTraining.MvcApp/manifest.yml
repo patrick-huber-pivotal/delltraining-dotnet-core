@@ -1,0 +1,8 @@
+﻿---
+applications:
+- name: dell-training-mvc
+  memory: 512M
+  instances: 2
+  health-check-type: http
+  buildpacks:
+  - dotnet_core_buildpack
