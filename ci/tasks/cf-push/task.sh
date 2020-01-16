@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source source-repo/scripts/install-cf.sh
+source source-repo/ci/scripts/install-cf.sh
 
 # set api target
 cf api \
