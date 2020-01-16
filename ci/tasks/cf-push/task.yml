@@ -8,7 +8,7 @@ image_resource:
     tag: latest
 
 run:
-  path: source-repo/tasks/cf-push/task.sh
+  path: source-repo/ci/tasks/cf-push/task.sh
 
 params:
     CF_USERNAME:
