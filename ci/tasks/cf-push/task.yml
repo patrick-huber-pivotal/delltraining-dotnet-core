@@ -7,6 +7,9 @@ image_resource:
     repository: ubuntu
     tag: latest
 
+inputs:
+- name: source-repo
+
 run:
   path: source-repo/ci/tasks/cf-push/task.sh
 
