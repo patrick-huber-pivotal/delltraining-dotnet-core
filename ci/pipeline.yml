@@ -11,6 +11,7 @@ jobs:
   public: true
   plan:
   - get: source-repo
+    trigger: true
   - task: push
     file: source-repo/ci/tasks/cf-push/task.yml
     params:
